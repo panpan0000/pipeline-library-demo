@@ -3,5 +3,5 @@
 def call(String name = 'human') {
   status.foo="changein Func"
   echo "Func, ${name}."
-  common("common in sayHello")
+  //common("common in sayHello")
 }
