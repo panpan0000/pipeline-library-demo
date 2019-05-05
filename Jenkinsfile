@@ -6,9 +6,10 @@
 node(){
 stage('Demo') {
   echo status.foo
-  sayHello 'Peter'
+  sayHello('Peter')
   Func("haha")
-    echo status.foo
+  common("in main")
+  echo status.foo
 
 }
 }
