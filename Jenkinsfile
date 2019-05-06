@@ -3,7 +3,9 @@
 
 @Library('pipeline-library-demo')_
 
+gv_in_main="111"
 node(){
+
 stage('Demo') {
   echo status.foo
   sayHello('Peter')
